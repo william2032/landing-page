@@ -1,0 +1,208 @@
+header, #footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 16px 200px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#header-content {
+    display: flex;
+    padding: 7em 0 7em;
+    flex-basis: 0;
+    align-items: center;
+    gap: 10px;
+}
+
+#header-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#header-img {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 200px;
+}
+
+.secondary, li {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 0 
+}
+
+#header-btn {
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    font-size: .7.5em;
+    font-weight: 600;
+    padding: 10px 15px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #E5E7EB;
+    align-self: flex-start;
+}
+
+
+
+ul {
+    display: flex;
+    gap: 22px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        margin-bottom: 100px;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 4px solid #3882f6;;
+}
+
+.card-container {
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.card-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-info {
+    width: 150px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-top: 25px
+}
+
+#quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+    padding: 7em 13em;
+    justify-content: center;
+}
+
+#Oprah-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+#Oprah{
+    font-weight: 900;
+    text-align: right;
+    margin: 0;
+    align-self: flex-end;
+    font-size: 23px;
+}
+
+#signup {
+    height: 130px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#action-btn {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-weight: 700;
+    padding: 5px 25px;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+a {
+    text-decoration: none;
+  }
+
+strong {
+    font-size: 24px;
+}
+
+.signup-container {
+    padding: 100px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
